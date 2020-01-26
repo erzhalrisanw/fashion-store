@@ -1,0 +1,92 @@
+.bar1 {
+    width: 23px;
+    height: 1px;
+    background-color: black;
+    margin: 5px 0;
+  }
+
+  .bar2 {
+    width: 13px;
+    height: 1px;
+    background-color: black;
+    margin: 5px 0;
+  }
+
+  .bar3 {
+    width: 23px;
+    height: 1px;
+    background-color: black;
+    margin: 5px 0;
+  }
+
+  .bar4 {
+    width: 13px;
+    height: 1px;
+    background-color: black;
+    margin: 5px 0;
+  }
+
+#navbar-logo-bg {
+    background-color: black;
+    width: 140px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 170px;
+}
+
+#navbar-logo {
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+#myCart::before {
+    content: "2";
+    position: relative;
+    height: 18px;
+    width: 18px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    right: 2px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bg-pattern {
+    position: relative;
+    z-index: -1;
+}
+
+.bg-pattern img {
+    width: 100%;
+    height: 250px;
+}
+
+.line-text {
+    width: 23px;
+    height: 2px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+#text-banner {
+    position: absolute;
+    text-align: right;
+}
+
+#text-banner::before {
+    content: "";
+    position: relative;
+    background-color: black;
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    right: 5px;
+    bottom: 4px;
+}
